@@ -24,7 +24,17 @@ public class HammingDist
 	
 	public void findHammingDist()
 	{
-	
+		int count = 0;
+		
+		for(int i = 0; i < 4; ++i)
+		{
+			if (stid1.charAt(i) != (stid2.charAt(i)))
+			{
+				++count;
+			}
+		}
+		
+		dist = count;
 	}
 	
 	public String toString()
