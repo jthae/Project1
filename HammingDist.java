@@ -4,17 +4,17 @@ public class HammingDist
 	private String stid1;
 	private String stid2;
 	
-	private int dist;
+	private int dist = 0;
 	
-	private int s1dist1;
-	private int s1dist2;
-	private int s1dist3;
-	private int s1dist4;
+	private int s1dist1 = 0;
+	private int s1dist2 = 0;
+	private int s1dist3 = 0;
+	private int s1dist4 = 0;
 	
-	private int s2dist1;
-	private int s2dist2;
-	private int s2dist3;
-	private int s2dist4;
+	private int s2dist1 = 0;
+	private int s2dist2 = 0;
+	private int s2dist3 = 0;
+	private int s2dist4 = 0;
 	
 	public HammingDist(String str1, String str2)
 	{
