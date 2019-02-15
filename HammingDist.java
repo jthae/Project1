@@ -1,3 +1,4 @@
+import java.io.BufferedReader;
 /*
 * @author Jaycie Thaemert
 * @author Samson Olivero
@@ -54,6 +55,8 @@ public class HammingDist
 	*/
 	public void findNodes() throws IOException
 	{
+		BufferedReader br = new BufferedReader(new FileReader("Mesonet.txt"));
+		String line = br.readLine();
 		
 	}
 	
