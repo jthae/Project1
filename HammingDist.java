@@ -65,7 +65,8 @@ public class HammingDist
 		String line = br.readLine();
 		line = br.readLine();
 		line = br.readLine();
-
+		
+		// for loop to run through lines of file and count hamming distances
 		for(int i = 4; i <= 123; ++i)
 		{
 			line = br.readLine();
@@ -97,7 +98,9 @@ public class HammingDist
 			line = br.readLine();
 		
 		}
+		// close buffered reader
 		br.close();
+		
 		
 		BufferedReader br2 = new BufferedReader(new FileReader("Mesonet.txt"));
 		line = br2.readLine();
