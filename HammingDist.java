@@ -93,6 +93,45 @@ public class HammingDist
 		
 		}
 		br.close();
+		
+		BufferedReader br2 = new BufferedReader(new FileReader("Mesonet.txt"));
+		line = br2.readLine();
+		line = br2.readLine();
+		line = br2.readLine();
+		
+		line = br2.readLine();
+		
+		for(int k = 4; k <= 123; ++k)
+		{
+			
+			int count = 0;
+			for(int l = 0; l < 4; ++l)
+			{
+				if (stid2.charAt(l) != line.charAt(l+1))
+				{
+					++count;
+				}
+			}
+		
+			if (count == 1)
+			{
+				++s2dist1;
+			}
+			if (count == 2)
+			{
+				++s2dist2;
+			}
+			if (count == 3)
+			{
+				++s2dist3;
+			}
+			if (count == 4)
+			{
+				++s2dist4;
+			}
+			line = br2.readLine();
+		}
+		br2.close();
 	}
 	
 	/* override for normal toString method. prints out a string with 
