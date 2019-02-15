@@ -151,6 +151,6 @@ public class HammingDist
 	{
 		return (""The Hamming Distance of %s and %s: %d.\n"                 
 						+ "Out of 119, for %s, number of nodes are: %d, %d, %d, %d and\n"                 
-							+ "for %s, number of nodes are: %d, %d, %d, %d respectively.", stid1, stid2, findHammingDist(), stid1, s1dist1, s1dist2, s1dist3, s1dist4, stid2, s2dist1, s2dist2, s2dist3, s2dist4); )
+							+ "for %s, number of nodes are: %d, %d, %d, %d respectively.", stid1, stid2, findHammingDist(), stid1, s1dist1, s1dist2, s1dist3, s1dist4, stid2, s2dist1, s2dist2, s2dist3, s2dist4);
 	}
 }
