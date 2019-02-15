@@ -3,6 +3,9 @@ import java.io.BufferedReader;
 * @author Jaycie Thaemert
 * @author Samson Olivero
 *
+* Project 1 is a simple class to calculate the hamming distance between
+* two STIDs as well as count the number of hamming distances among the
+* other STIDs in the list.
 */
 public class HammingDist
 {
