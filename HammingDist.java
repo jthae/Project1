@@ -101,8 +101,9 @@ public class HammingDist
 		// close buffered reader
 		br.close();
 		
-		
+		// create buffered reader to read in lines for comparison to STID 2
 		BufferedReader br2 = new BufferedReader(new FileReader("Mesonet.txt"));
+		// read through first three lines
 		line = br2.readLine();
 		line = br2.readLine();
 		line = br2.readLine();
