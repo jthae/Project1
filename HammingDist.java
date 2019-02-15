@@ -60,7 +60,7 @@ public class HammingDist
 		line = br.readLine();
 		line = br.readLine();
 
-		line = br.readLine();
+		
 		for(int i = 4; i <= 123; ++i)
 		{
 			line = br.readLine();
@@ -89,8 +89,7 @@ public class HammingDist
 			{
 				++s1dist4;
 			}
-			
-		
+			line = br.readLine();
 		
 		}
 	}
