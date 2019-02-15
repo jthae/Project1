@@ -9,8 +9,6 @@ public class HammingDist
 	private String stid1;
 	private String stid2;
 	
-	private int dist = 0;
-	
 	// declare instance variables to store distances for other nodes
 	private int s1dist1 = 0;
 	private int s1dist2 = 0;
@@ -48,7 +46,7 @@ public class HammingDist
 			}
 		}
 		
-		dist = count;
+		return count;
 	}
 	
 	/* override for normal toString method. prints out a string with 
@@ -59,6 +57,6 @@ public class HammingDist
 	{
 		return ("The Hamming Distance of %s and %s: %f.\n"
 				+ "Out of 120, for %s, number of nodes are: %i, %i, %i, %i and\n"
-				+ "for %s, number of nodes are: respectively.", stid1, stid2, dist, )
+				+ "for %s, number of nodes are: respectively.", stid1, stid2, findHammingDist(), )
 	}
 }
