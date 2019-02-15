@@ -15,6 +15,7 @@ public class Main
 		// find nodes for both STID's
 		HammDist.findNodes();
 		
+		// print hamming distance using modified toString
 		System.out.println(HammDist);
 	}
 }
