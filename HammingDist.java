@@ -57,6 +57,10 @@ public class HammingDist
 	{
 		BufferedReader br = new BufferedReader(new FileReader("Mesonet.txt"));
 		String line = br.readLine();
+		line = br.readLine();
+		line = br.readLine();
+
+		line = br.readLine();
 		
 	}
 	
