@@ -149,8 +149,8 @@ public class HammingDist
 	@Override
 	public String toString()
 	{
-		return ("The Hamming Distance of %s and %s: %f.\n"
-				+ "Out of 120, for %s, number of nodes are: %i, %i, %i, %i and\n"
-				+ "for %s, number of nodes are: respectively.", stid1, stid2, findHammingDist(), )
+		return (""The Hamming Distance of %s and %s: %d.\n"                 
+						+ "Out of 119, for %s, number of nodes are: %d, %d, %d, %d and\n"                 
+							+ "for %s, number of nodes are: %d, %d, %d, %d respectively.", stid1, stid2, findHammingDist(), stid1, s1dist1, s1dist2, s1dist3, s1dist4, stid2, s2dist1, s2dist2, s2dist3, s2dist4); )
 	}
 }
