@@ -61,7 +61,38 @@ public class HammingDist
 		line = br.readLine();
 
 		line = br.readLine();
+		for(int i = 4; i <= 123; ++i)
+		{
+			line = br.readLine();
+			int count = 0;
+			for(int j = 0; j < 4; ++j)
+			{
+				if (stid1.charAt(j) != line.charAt(j+1))
+				{
+					++count;
+				}
+			}
+			
+			if (count == 1)
+			{
+				++s1dist1;
+			}
+			if (count == 2)
+			{
+				++s1dist2;
+			}
+			if (count == 3)
+			{
+				++s1dist3;
+			}
+			if (count == 4)
+			{
+				++s1dist4;
+			}
+			
 		
+		
+		}
 	}
 	
 	/* override for normal toString method. prints out a string with 
