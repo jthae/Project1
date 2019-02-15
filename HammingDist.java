@@ -59,12 +59,13 @@ public class HammingDist
 	*/
 	public void findNodes() throws IOException
 	{
+		// create buffered reader to read in Mesonet.txt file
 		BufferedReader br = new BufferedReader(new FileReader("Mesonet.txt"));
+		// read through first three lines
 		String line = br.readLine();
 		line = br.readLine();
 		line = br.readLine();
 
-		
 		for(int i = 4; i <= 123; ++i)
 		{
 			line = br.readLine();
