@@ -53,7 +53,8 @@ public class HammingDist
 		return count;
 	}
 	/* method to find hamming distance between two input strings
-	* and the rest of the strings in the file.
+	* and the rest of the strings in the file. utilizes nested for loops
+	* to run through file and count hamming distances.
 	*
 	*/
 	public void findNodes() throws IOException
