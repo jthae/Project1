@@ -48,6 +48,14 @@ public class HammingDist
 		
 		return count;
 	}
+	/* method to find hamming distance between two input strings
+	* and the rest of the strings in the file.
+	*
+	*/
+	public void findNodes() throws IOException
+	{
+		
+	}
 	
 	/* override for normal toString method. prints out a string with 
 	* various hamming distance characteristics in specified format.
