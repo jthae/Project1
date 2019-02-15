@@ -92,6 +92,7 @@ public class HammingDist
 			line = br.readLine();
 		
 		}
+		br.close();
 	}
 	
 	/* override for normal toString method. prints out a string with 
